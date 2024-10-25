@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de pendientes</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="containerChild">
+        <div class="inputContainer">
+            <input type="text" id="inputText" class="textField"></input>
+            <button id="inputButton" class="button">Añadir tarea</button>
+        </div>
+
+        <div class="containterTareas">
+            <div id="pendientes" class="tareas">
+                <h2 class="title">Pendientes</h2>
+                <div id="listaPendiente" class="listas"></div>
+            </div>
+            <div id="haciendo" class="tareas">
+                <h2 class="title">En progreso</h2>
+                <div id="listaEnProgreso" class="listas"></div>
+            </div>
+            <div id="completadas" class="tareas">
+                <h2 class="title">Completado</h2>
+                <div id="listaCompletadas" class="listas"></div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
